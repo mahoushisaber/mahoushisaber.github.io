@@ -1,0 +1,61 @@
+body
+{
+  padding: 30px;
+  background-color: #fcfcfc;
+}
+
+#search-bar{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:20px;
+}
+
+#card{
+  width:400px;
+}
+
+img{
+  border-radius: 10%;
+}
+
+.media-body p{
+  margin:10px;
+}
+
+.media-body h5{
+  margin:10px;
+}
+
+div#card:hover{
+  background-color: lightgray;
+}
+
+.subheading{
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main-box{
+  margin: 50px;
+  margin-top:70px;
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  left: 47%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.user-list
+{
+  margin: 0px;
+  position: absolute;
+  left: 34%;
+  top: 40%;
+  margin-left: 10px;
+}
+
+#title{
+  margin:10px;
+  margin-top:20px;
+}
