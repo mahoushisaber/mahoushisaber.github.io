@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>John Dong 4711 Lab4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/lab4.css">
+    <script type="text/javascript" src="./js/lab4.js" > </script>
+   
+    <style></style>
+</head>
+
+<body>
+    <div id="main">
+        <form class="form">
+                <div id ="searchBar">
+                        <h1>Artist Directory</h1>
+                        <div id="searchLayout">
+                            <input id="searchBarInput" type = "text">
+                            <button type= "button" id = "addArtist" onclick = "add()"> Add Artist </button>
+                            <button type = "button" onclick = "search()" id = "searchButton"> Search</button>
+                        </div>
+                        
+                    </div>
+            <div id = "addDiv" style= "display: none;">
+                <form id = "inputForm">
+                    <ul>
+                        <li>
+                            <input type = "text" id = "name" placeholder = "Artist Name">
+                        </li>   
+                        <li>
+                            <input type = "text" id = "aboutArtist" placeholder = "About Artist">
+                        </li>   
+                        <li>
+                            <input type = "text" id = "artistUrl" placeholder = "Image url">
+                        </li>   
+                    </ul>
+                    <button type = "button" onclick = "addToList()"> Add </button>
+                </form>
+            </div>
+            <div id = "artistsDiv">
+                  <!-- <img src="https://randomuser.me/api/portraits/med/women/39.jpg"> -->    
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

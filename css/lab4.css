@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body
+{
+  
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fcfcfc;
+}
+
+#search-bar{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:20px;
+}
+
+#card{
+  width:400px;
+}
+
+img{
+  border-radius: 10%;
+}
+
+#addDiv button{
+  display: block;
+  margin: 0 auto;
+  background-color: lightgray;
+  border: solid lightgray;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+}
+
+#searchBarInput{ 
+  width:400px;
+}
+
+#addArtist{
+  border: solid lightgray;
+  width: 100px;
+  background-color: lightgray;
+}
+
+.media-body p{
+  margin:10px;
+}
+
+.media-body h5{
+  margin:10px;
+}
+
+div#card:hover{
+  background-color: lightgray;
+}
+
+#addArtistBtn{
+  margin: 50px;
+  padding:30px;
+  width: 30x;
+  height: 35px;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+}
+
+#addDiv{
+    margin-bottom: 15%;
+}
+#addDiv ul{
+    list-style-type: none;
+    margin: auto;
+    width: 100%;  
+}
+
+#searchBar{
+  padding-top: 20px;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  padding-bottom: 80px;
+  border: 1px solid lightgray;
+}
+
+#name {
+    border-width: thin;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    border: solid lightgray; 
+}
+
+#artistUrl{
+    padding-top: 6px;
+    border-radius: 6px;
+    width: 80%;
+    text-align: center;
+    border: solid lightgray;
+    border-width: 2px;
+}
+
+#aboutArtist{
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+  border-width: thin;
+  padding-top: 5px;
+  border: solid lightgray;
+}
+
+#artistDesc{
+  display: inline-block;
+  line-height:30%;
+}
+
+
+.helper {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.artist{
+  border-left: 10%;
+  margin-left: 5%;
+  overflow: auto;
+  height: 110px;
+  display: inline-block;
+  border: 1px solid lightgray;
+  width: 89%;
+}
+
+.artist:hover{
+  background-color: lightgray;
+}
+
+#pic{
+  padding: 10px;
+  vertical-align: middle;
+  max-height: 89px;
+}
+
+.deleteArtist{
+    border-radius: 8px;
+    border:red solid;
+    float: right;
+    color: white;
+    width: 60px;
+    height: 40px;
+    margin-right: 10%;
+    margin-top: 10%;
+    background-color: red;
+}
+
+#main-box{
+  margin: 50px;
+  left: 46%;
+  top: 20%;
+  margin-top:69px;
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.user-list{
+  margin: 0px;
+  position: absolute;
+  left: 34%;
+  top: 40%;
+  margin-left: 10px;
+}
+
+#title{
+  margin:10px;
+  margin-top:20px;
+}
+
+#addArtist{
+  width: 100px;
+  background-color: lightgray;
+  border: solid lightgray;
+  margin-right: 5px;
+}
+
+#searchBar{
+  padding-left: 10px;
+  padding-bottom: 80px;
+  padding-top: 20px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid lightgray;
+}
+
+#searchButton{
+  width: 100px;
+  background-color: lightgray;
+  border: solid lightgray;
+}
+
+.pic{
+    padding: 10px;
+    vertical-align: middle;
+    max-height: 90px;
+}
+
+#searchLayout{
+  display: flex; 
+}
+
+#inputForm{
+  vertical-align: middle;
+  height:50px;
+}
+
+#searchBarInput { 
+  width:400px;
+}
