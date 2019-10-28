@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "no desc",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "author": "john",
+  "license": "ISC",
+  "dependencies": {
+    "cord": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}

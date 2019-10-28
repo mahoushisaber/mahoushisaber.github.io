@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>John Dong 4711 Lab 5</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/lab5.css">
+    <script type="text/javascript" src="./js/lab5.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="searchBar">
+            <div class="searchBarTitle">
+                <h1>Artist Directory</h1>
+            </div>
+
+            <div class="searchBarContent">
+                <form>
+                    <input id="searchName" type="text" name="searchName" value=""></input>
+                </form>
+                <div id="addArtist">
+                        <button id="addArtistBtn" onclick="showAddArtistContent()">Add artist</button>
+                </div>
+                <div id="searchArtist">
+                    <button id="searchB" onclick="searchByName()">Search</button>
+                </div>
+            </div>
+            <div class="addArtistContent">
+                <ul>
+                    <li>
+                        <input id="artistName" type="text" name="artistName" value="John Dong"/>
+                    </li>
+                    <li>
+                        <input id="aboutArtist" type="text" name="aboutArtist" value="BCIT student"/>
+                    </li>
+                    <li>
+                        <input id="imageUrl" type="text" name="imageUrl" value="https://randomuser.me/api/portraits/med/men/39.jpg"/>
+                    </li>
+                    <li>
+                        <button id="add" onclick="addArtist()">Add</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="ArtistList"></div>
+            <!-- <img src="https://randomuser.me/api/portraits/med/women/39.jpg"> -->    
+        </div>
+       
+    </div>
+
+</body>
+
+</html>

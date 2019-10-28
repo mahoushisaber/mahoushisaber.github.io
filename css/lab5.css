@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body
+{
+  
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fcfcfc;
+}
+
+#search-bar{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:20px;
+}
+
+#card{
+  width:400px;
+}
+
+img{
+  border-radius: 10%;
+}
+
+#add {
+  display: block;
+  margin: 0 auto;
+  background-color: lightgray;
+  border: solid lightgray;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 28%;
+}
+
+
+.media-body p{
+  margin:10px;
+}
+
+.media-body h5{
+  margin:10px;
+}
+
+div#card:hover{
+  background-color: lightgray;
+}
+
+.ArtistList{
+  margin-top: 22px;
+}
+
+#addArtistBtn{
+  width: 100px;
+  background-color: lightgray;
+  border: solid lightgray;
+}
+
+#addArtist{
+  width: 80px;
+  background-color: lightgray;
+  border: solid lightgray;
+  margin-right: 5px;
+}
+
+.addArtistContent{
+    margin-top: 4%; 
+    margin-bottom: 5%;
+}
+.eachArtist{
+    margin-top: 0%;
+    margin-left: 5%;
+    height: 110px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    width: 89%;
+}
+.addArtistContent ul{
+    margin-top:30%;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+}
+
+.eachArtistImg img{
+  width: 80px;
+  margin: 14px;
+}
+.eachArtistContent{
+  margin-left: 20%;
+  margin-top: -20%;
+  width: 100%;
+}
+#searchName{
+  width: 370px;
+  height: 22px;
+  margin-right: 1px;
+}
+
+.searchBar{
+  padding-top: 20px;
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  padding-bottom: 80px;
+  border: 1px solid lightgray;
+}
+
+#name {
+    border-width: thin;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    border: solid lightgray; 
+}
+
+#imageUrl{
+    padding-top: 6px;
+    border-radius: 6px;
+    width: 80%;
+    text-align: center;
+    border: solid lightgray;
+    border-width: 2px;
+}
+
+#aboutArtist{
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+  border-width: thin;
+  padding-top: 5px;
+  border: solid lightgray;
+}
+
+#artistName{
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+  border-width: thin;
+  padding-top: 5px;
+  border: solid lightgray;
+}
+
+#artistDesc{
+  display: inline-block;
+  line-height:30%;
+}
+
+
+.helper {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.artist{
+  border-left: 10%;
+  margin-left: 5%;
+  overflow: auto;
+  height: 110px;
+  display: inline-block;
+  border: 1px solid lightgray;
+  width: 89%;
+}
+
+.artist:hover{
+  background-color: lightgray;
+}
+
+#pic{
+  padding: 10px;
+  vertical-align: middle;
+  max-height: 89px;
+}
+
+.removeButton{
+  border-radius: 8px;
+  border: red solid;
+  float: right;
+  color: white;
+  width: 60px;
+  height: 40px;
+  margin-right: 26%;
+  margin-top: -13%;
+  background-color: red;
+}
+
+#main-box{
+  margin: 50px;
+  left: 46%;
+  top: 20%;
+  margin-top:69px;
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.user-list{
+  margin: 0px;
+  position: absolute;
+  left: 34%;
+  top: 40%;
+  margin-left: 10px;
+}
+
+#title{
+  margin:10px;
+  margin-top:20px;
+}
+
+#addArtist{
+  width: 100px;
+  background-color: lightgray;
+  border: solid lightgray;
+  margin-right: 5px;
+}
+
+.searchArtist{
+  padding-left: 10px;
+  padding-bottom: 80px;
+  padding-top: 20px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid lightgray;
+}
+
+#searchArtist{
+  width: 100px;
+  background-color: lightgray;
+  border: solid lightgray;
+}
+
+#searchB{
+  width: 100px;
+  background-color: lightgray;
+  border: solid lightgray;
+}
+
+.pic{
+    padding: 10px;
+    vertical-align: middle;
+    max-height: 90px;
+}
+
+.searchBarContent{
+  display: flex; 
+}
+
+#inputForm{
+  vertical-align: middle;
+  height:50px;
+}
+
+#searchBarInput { 
+  width:400px;
+}
